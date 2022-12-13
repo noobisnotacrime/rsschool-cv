@@ -35,7 +35,7 @@ console.log('Hello World!');
 ```
 
 ### Education:
-***University:*** Uzbek world languages university
+***University:*** Uzbek world languages university  
 ***Courses:***
 - korean language courses for international students
 - rubyrush course for beginners
