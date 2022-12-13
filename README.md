@@ -1,0 +1,1 @@
+https://github.com/noobisnotacrime/rsschool-cv/blob/gh-pages/cv.md
