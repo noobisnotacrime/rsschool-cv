@@ -1,21 +1,21 @@
-#KIM ANDREY
+# KIM ANDREY
 
-##Contact information:
+## Contact information:
 
 **Phone:** +8-210-7559-2505
 **E-mail:** drewakatae@gmail.com
 **Telegram:** @op3nyourmind
 
-##About Me
+## About Me
 
 Currently based in South Korea. I love IT and I want to improve people's lives.
 
-##Skills:
+## Skills:
 
     - HTML & CSS
     - Javascript
 
-##Code example:
+## Code example:
 
 ```javascript
 function multiply(a, b) {
@@ -23,7 +23,7 @@ function multiply(a, b) {
 };
 ```
 
-##Languages:
+## Languages:
 
  - English
  - Russian
