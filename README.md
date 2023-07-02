@@ -1,1 +1,1 @@
-# rsschool-cv
+https://noobisnotacrime.github.io/rsschool-cv/cv
