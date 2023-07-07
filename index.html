@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +8,115 @@
   <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
   <title>CV</title>
 </head>
+
 <body>
   <div class="container">
     <header class="header">
       <img src="./assets/img/avatar.jpg" alt="avatar" class="avatar">
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item"><a href="#about-me">About me</a></li>
-          <li class="nav__item"><a href="#education">Education</a></li>
-          <li class="nav__item"><a href="#skills">Skills</a></li>
-          <li class="nav__item"><a href="#projects">Projects</a></li>
-          <li class="nav__item"><a href="#contacts">Contacts</a></li>
+          <li class="nav__item"><a href="#myAbout-me">About me</a></li>
+          <li class="nav__item"><a href="#myEducation">Education</a></li>
+          <li class="nav__item"><a href="#mySkills">Skills</a></li>
+          <li class="nav__item"><a href="#myProjects">Projects</a></li>
+          <li class="nav__item"><a href="#myContacts">Contacts</a></li>
         </ul>
       </nav>
     </header>
-    
+
+    <main class="main">
+      <div class="main__blocks">
+        <section class="contacts" id="myContacts">
+          <ul class="contacts__wrapper">
+            <li class="contacts__item">
+              <div class="contacts__image contacts__image__phone"></div>
+              <div>
+                <a href="tel:+8-210-7559-2505" class="contacts__link">+8-210-7559-2505</a>
+              </div>
+            </li>
+
+            <li class="contacts__item">
+              <div class="contacts__image contacts__image__email"></div>
+              <div>
+                <a href="mailto:drewakatae@gmail.com" class="contacts__link">drewakatae@gmail.com</a>
+              </div>
+            </li>
+
+            <li class="contacts__item">
+              <div class="contacts__image contacts__image__telegram"></div>
+              <div>
+                <a href="https://t.me/op3nyourmind" class="contacts__link">op3nyourmind</a>
+              </div>
+            </li>
+
+            <li class="contacts__item">
+              <div class="contacts__image contacts__image__github"></div>
+              <div>
+                <a href="https://github.com/noobisnotacrime" class="contacts__link">GitHub</a>
+              </div>
+            </li>
+
+            <li class="contacts__item">
+              <div class="contacts__image contacts__image__codewars"></div>
+              <div>
+                <a href="https://www.codewars.com/users/rsschool_dc3ec0ad10b98bfd" class="contacts__link">CodeWars</a>
+              </div>
+            </li>
+        </section>
+
+        <div class="information">
+          <section class="about-me section__wrapper" id="myAbout-me">
+            <h1 class="about-me__title">Andrey Kim</h1>
+            <h2 class="about-me__subtitle">Front-End Developer</h2>
+            <div class="about-me__wrapper">
+              <h3 class="education__title">About me</h3>
+              <p class="information__text">I am currently residing in the Republic of Korea. I am interested in computer
+                technology and hope to advance in it. I began learning web development in order to improve people's quality
+                of life. I'd like to learn how to build web applications that make work easier and faster. In my spare
+                time, I enjoy riding my motorcycle and going camping.</p>
+            </div>
+          </section>
+
+          <section class="education section__wrapper" id="myEducation">
+            <h3 class="education__title">University</h3>
+              <ul>
+                <li><p class="information__text">Uzbekistan State World Languages University</p></li>
+              </ul>
+            <h3 class="education__title">Languages</h3>
+            <ul>
+              <li><p class="information__text">Russian - Native</p> </li>
+              <li><p class="information__text">English - Advanced</p></li>
+              <li><p class="information__text">Korean - Intermediate</p></li>
+              <li><p class="information__text">Uzbek - Intermediate</p></li>
+            </ul>
+          </section>
+
+          <section class="skills section__wrapper" id="mySkills">
+            <h3 class="education__title">Skills</h3>
+            <ul>
+              <li><p class="information__text">HTML & CSS</p></li>
+              <li><p class="information__text">Javascript</p></li>
+              <li><p class="information__text">Ruby</p></li>
+              <li><p class="information__text">Git</p></li>
+              <li><p class="information__text">Win / Mac / Linux</p></li>
+            </ul>
+            
+            
+          </section>
+
+          <section class="projects section__wrapper" id="myProjects">
+            <h3 class="education__title">Code example</h3>
+            <pre>
+              function multiply(a, b) {
+                return a * b;
+              };
+            </pre>
+            
+          </section>
+        </div>
+      </div>
+    </main>
   </div>
 </body>
+
 </html>
