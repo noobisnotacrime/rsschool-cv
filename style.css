@@ -1,0 +1,132 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/roboto-v30-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/fonts/roboto-v30-latin-500.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/roboto-v30-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray-color);
+  outline-color: rgb(131, 230, 230);
+}
+
+a:hover {
+  color: var(--detailing-color);
+}
+
+a:active {
+  color: rgb(233, 191, 75);
+}
+
+a:visited {
+  color: rgb(103, 249, 237);
+}
+
+
+
+:root {
+  --accent-color: #3A98B9;
+  --background-color: #FFF1DC;
+  --detailing-color: #E8D5C4;
+  --gray-color: #EEEEEE;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header styles begin */
+.header {
+  padding-top: 30px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--accent-color);
+
+}
+
+.avatar {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  user-select: none;
+
+}
+
+.nav {
+  margin-right: 30px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-right: 30px;
+  user-select: none;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+/* Header styles end */
+
+
