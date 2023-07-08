@@ -331,6 +331,33 @@ section ul li {
   .contacts {
     width: 100%;
   }
+
+  .contacts__wrapper {
+    margin-bottom: 60px;
+  }
+
+  .section__wrapper {
+    max-width: 500px;
+  }
+
+  .code__example {
+    width: 100%;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .nav__item {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+
+  .nav__item:last-child {
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
 }
 /* MEDIA styles end */
 
