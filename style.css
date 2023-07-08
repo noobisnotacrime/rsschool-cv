@@ -1,0 +1,363 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/roboto-v30-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/fonts/roboto-v30-latin-500.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/roboto-v30-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray-color);
+  outline-color: rgb(131, 230, 230);
+  transition: .3s;
+}
+
+a:hover {
+  color: var(--detailing-color);
+}
+
+a:active {
+  color: rgb(233, 191, 75);
+}
+
+a:visited {
+  color: rgb(103, 249, 237);
+}
+
+
+
+:root {
+  --accent-color: #3A98B9;
+  --background-color: #FFF1DC;
+  --detailing-color: #E8D5C4;
+  --gray-color: #EEEEEE;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header styles begin */
+.header {
+  padding-top: 30px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--accent-color);
+
+}
+
+.avatar {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  user-select: none;
+  box-shadow: 0px 26px 87px #e2e5c7;
+
+}
+
+.nav {
+  margin-right: 40px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-right: 30px;
+  user-select: none;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+/* Header styles end */
+
+/* MAIN styles begin */
+.main__blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  background-color: #fbf3e7;
+  width: 75%;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.section__wrapper {
+  max-width: 900px;
+  margin-bottom: 30px;
+}
+
+.section__wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.contacts {
+  background-color: var(--background-color);
+  width: 25%;
+}
+
+.contacts__wrapper {
+  margin: 0;
+  padding-top: 45px;
+  list-style-type: none;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.contacts__toppadding__delete {
+  padding-top: 0;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.contacts__item:last-child {
+  margin-bottom: 0;
+}
+
+.contacts__link {
+  color: black;
+}
+
+.contacts__link:hover {
+  color: black;
+}
+
+.contacts__link:active {
+  color: black;
+}
+
+.contacts__link:visited {
+  color: black;
+}
+
+.contacts__image {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contacts__image__phone {
+  background-image: url(./assets/img/phone.png);
+
+}
+
+.contacts__image__email {
+  background-image: url(./assets/img/email.png);
+}
+
+.contacts__image__telegram {
+  background-image: url(./assets/img/telegram.png);
+}
+
+.contacts__image__github {
+  background-image: url(./assets/img/github.png);
+}
+
+.contacts__image__codewars {
+  background-image: url(./assets/img/codewars.png);
+}
+
+.about-me__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 45px;
+
+}
+
+.about-me__subtitle {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.about-me__wrapper {
+  padding-top: 70px;
+}
+
+.information__text {
+  text-align: left;
+  margin-top: 0;
+}
+
+.information__title {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.contacts__title {
+  padding-left: 115px;
+  padding-top: 50px;
+  margin-bottom: 45px;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+/* MAIN styles end */
+
+/* FOOTER styles begin */
+
+.footer {
+  background-color: var(--gray-color);
+  min-height: 70px;
+}
+
+.footer__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer__image {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.rsshool__image {
+  width: 100px;
+  height: 25px;
+}
+
+.footer__text {
+  font-style: italic;
+}
+
+.footer__items {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__items li {
+  margin-right: 25px;
+}
+
+.footer__items li:last-child {
+  margin-right: 0;
+}
+/* FOOTER styles end */
+
+/* MEDIA styles begin */
+
+@media screen and (min-width: 420px) and (max-width: 768px) {
+  .main__blocks {
+    flex-wrap: wrap;
+  }
+
+  .information {
+    width: 100%;
+  }
+
+  .contacts {
+    width: 100%;
+  }
+
+  .contacts__wrapper {
+    margin-bottom: 60px;
+  }
+
+  .section__wrapper {
+    max-width: 500px;
+  }
+
+  .code__example {
+    width: 100%;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .nav__item {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+
+  .nav__item:last-child {
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+}
+/* MEDIA styles end */
+
