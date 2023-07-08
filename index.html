@@ -27,7 +27,8 @@
     <main class="main">
       <div class="main__blocks">
         <section class="contacts" id="myContacts">
-          <ul class="contacts__wrapper">
+          <h3 class="contacts__title information__title">Contacts</h3>
+          <ul class="contacts__toppadding__delete contacts__wrapper">
             <li class="contacts__item">
               <div class="contacts__image contacts__image__phone"></div>
               <div>
@@ -45,7 +46,7 @@
             <li class="contacts__item">
               <div class="contacts__image contacts__image__telegram"></div>
               <div>
-                <a href="https://t.me/op3nyourmind" class="contacts__link">op3nyourmind</a>
+                <a href="https://t.me/op3nyourmind" class="contacts__link">Telegram</a>
               </div>
             </li>
 
@@ -62,6 +63,7 @@
                 <a href="https://www.codewars.com/users/rsschool_dc3ec0ad10b98bfd" class="contacts__link">CodeWars</a>
               </div>
             </li>
+          </ul>
         </section>
 
         <div class="information">
@@ -69,53 +71,76 @@
             <h1 class="about-me__title">Andrey Kim</h1>
             <h2 class="about-me__subtitle">Front-End Developer</h2>
             <div class="about-me__wrapper">
-              <h3 class="education__title">About me</h3>
+              <h3 class="information__title">About me</h3>
               <p class="information__text">I am currently residing in the Republic of Korea. I am interested in computer
-                technology and hope to advance in it. I began learning web development in order to improve people's quality
+                technology and hope to advance in it. I began learning web development in order to improve people's
+                quality
                 of life. I'd like to learn how to build web applications that make work easier and faster. In my spare
                 time, I enjoy riding my motorcycle and going camping.</p>
             </div>
           </section>
 
           <section class="education section__wrapper" id="myEducation">
-            <h3 class="education__title">University</h3>
-              <ul>
-                <li><p class="information__text">Uzbekistan State World Languages University</p></li>
-              </ul>
-            <h3 class="education__title">Languages</h3>
+            <h3 class="information__title">University</h3>
             <ul>
-              <li><p class="information__text">Russian - Native</p> </li>
-              <li><p class="information__text">English - Advanced</p></li>
-              <li><p class="information__text">Korean - Intermediate</p></li>
-              <li><p class="information__text">Uzbek - Intermediate</p></li>
+              <li>
+                <p class="information__text">Uzbekistan State World Languages University</p>
+              </li>
+            </ul>
+            <h3 class="information__title">Languages</h3>
+            <ul>
+              <li><span class="information__text">Russian - Native</span> </li>
+              <li><span class="information__text">English - Advanced</span></li>
+              <li><span class="information__text">Korean - Intermediate</span></li>
+              <li><span class="information__text">Uzbek - Intermediate</span></li>
             </ul>
           </section>
 
           <section class="skills section__wrapper" id="mySkills">
-            <h3 class="education__title">Skills</h3>
+            <h3 class="information__title">Skills</h3>
             <ul>
-              <li><p class="information__text">HTML & CSS</p></li>
-              <li><p class="information__text">Javascript</p></li>
-              <li><p class="information__text">Ruby</p></li>
-              <li><p class="information__text">Git</p></li>
-              <li><p class="information__text">Win / Mac / Linux</p></li>
+              <li><span class="information__text">HTML & CSS</span></li>
+              <li><span class="information__text">Javascript</span></li>
+              <li><span class="information__text">Ruby</span></li>
+              <li><span class="information__text">Git</span></li>
+              <li><span class="information__text">Win / Mac / Linux</span></li>
             </ul>
-            
-            
           </section>
 
           <section class="projects section__wrapper" id="myProjects">
-            <h3 class="education__title">Code example</h3>
+            <h3 class="information__title">Code example</h3>
             <pre>
               function multiply(a, b) {
                 return a * b;
               };
             </pre>
-            
+
+            <h3 class="information__title">Projects</h3>
+            <ul>
+              <li><a href="https://noobisnotacrime.github.io/rsschool-cv/" class="contacts__link">My CV</a></li>
+            </ul>
           </section>
         </div>
       </div>
     </main>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <ul class="footer__items">
+          <li>
+            <div><a href="https://github.com/noobisnotacrime" class="footer__github__link"><img src="./assets/img/footer-github.png" alt="footer github icon" class="footer__image"></a></div>
+          </li>
+          
+          <li>
+            <p class="footer__text">2023</p>
+          </li>
+
+          <li>
+            <div><a href="https://rs.school/js/"><img src="./assets/svg/rs-school.svg" alt="rs school logo" class="footer__image rsshool__image"></a></div>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </div>
 </body>
 
